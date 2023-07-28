@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import RecentCamp from './RecentCamp';
+import MessageCamp from './MessageCamp';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -22,7 +23,7 @@ export default function ShowBox() {
           <RecentCamp/>
         </Grid>
         <Grid item xs={4}>
-        <RecentCamp/>
+        <MessageCamp/>
 
         </Grid>
         <Grid item xs={4}>
